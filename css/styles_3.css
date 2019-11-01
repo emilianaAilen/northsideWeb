@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titulo-principal{
+    font-family: 'Faster One', cursive;
+    font-size: 60px;
+    color: black;
+}
+
+.tittle{
+    font-family: 'Cabin', sans-serif;
+    background-color: black;
+    color: white;
+    width: 60%;
+    text-align: center;
+    height: 50px;
+}
+
+#logo{
+    width: 30%;
+    padding: 5px;
+}
+
+.titulo-logo{
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.cuerpo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.navbar {
+    font-family: 'Cabin', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.navbar li:hover {
+    background-color: #d43d3d;
+    margin-top: -2px;
+    padding-bottom: 12px;
+}
+
+.navbar .active{
+    background-color: green;
+}
+.navbar li{
+    display: inline-flex;
+    list-style: none;
+    padding: 15px;
+}
+
+.navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.game-fecha{
+    padding-top: 15px; 
+}
+
+.text{
+    font-family: 'Cabin', sans-serif;
+    padding: 20px 10px 20px 15px;
+    margin-top: 3%;
+    background-color: rgba(32, 31, 31, 0.5);
+    border-radius: 7px;
+    width: 60%;
+    color: white;
+}
+
+.text a{
+    color: white;
+}
+
+.parrafo{
+    font-family: 'Cabin', sans-serif;
+    text-align: justify;
+    padding-top: 15px;
+}
+
+#contacto{
+    font-size: 25px;
+}
+
+/*game information styles*/
+#secundary-tittle{
+    color: white;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 20px;
+}
+
+.mes-table{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    padding-top: 3%;
+}
+
+.mes-table table, .game-locations table{
+    border: 1px solid white;
+    background-color: rgba(24, 22, 22, 0.5);
+    border-radius: 7px;
+    font-family: 'Cabin', sans-serif;
+}
+
+table tr th{
+    padding: 5px;
+}
+
+table tr td{
+   padding: 15px;
+}
+
+#info, #game-secondTittle{
+    margin-top: 1%;
+}
+
+.game-locations{
+    padding-top: 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+.game-locations iframe{
+    padding: 2%;
+}
+
+.game-locations tr td{
+    padding: 8px;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white solid;
+    font-family: 'Cabin', sans-serif;
+    padding: 20px;
+    width: 100%;
+}
+
+footer a{
+    color: white;
+}
+
+.content, #info{
+    color: white;
+    background-color: rgba(24, 22, 22, 0.5);
+    width: 70%;
+    padding: 30px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.content section{
+    padding: 20px;
+    text-align: justify;
+}
+
+.second-tittle{
+    color: black;
+    padding: 2%;
+    font-family: 'Cabin', sans-serif;
+}
+
+#fifa-regulations ol li{
+    padding: 10px;
+}
+
+/*registration form*/
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.schools, #input-row, .horizontal-position, .titulo-logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.schools div, #uniform div, #positions div, .cuerpo{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    width: 60%;
+    background-color: rgba(24, 22, 22, 0.5);
+    border-radius: 7px;
+    padding: 1%;
+    font-family: 'Cabin', sans-serif;
+    font-size: 15px;
+}
+
+form div{
+    padding: 7px;
+}
+
+form span{
+    padding: 5px;
+}
+
+.game-locations a{
+    text-decoration: none;
+}
+
+.button{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #054d0a;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 23px;
+    padding: 10px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .button span {
+    padding: 5px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .button span:after {
+  content: '\00bb';
+  position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .button:hover span {
+    padding-right: 25px;
+  }
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  input{
+    background-color: rgba(54, 52, 52, 0.288);            
+    border-radius: 5px;
+    color: white;
+  }

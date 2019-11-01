@@ -41,35 +41,10 @@ body{
     margin-top: 5%;
 }
 
-.navbar {
+
+.navbar-estilo{
     font-family: 'Cabin', sans-serif;
-    display: flex;
-    justify-content: center;
     background-color: black;
-    color: white;
-    width: 100%;
-}
-
-.navbar li:hover {
-    background-color: #d43d3d;
-    margin-top: -2px;
-    padding-bottom: 12px;
-}
-
-.navbar .active{
-    background-color: green;
-}
-.navbar li{
-    display: inline-flex;
-    list-style: none;
-    padding: 15px;
-}
-
-.navbar a {
-    color: #f2f2f2;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
 }
 
 .game-fecha{
